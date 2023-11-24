@@ -5,7 +5,7 @@ const NodeCache = require('node-cache');
 
 const cache = new NodeCache({ stdTTL: 3600 }); // Время жизни кэша - 1 час (в секундах)
 
-const PORT = 3000;
+const PORT = 8080;
 
 const createPath = (page) => path.resolve(__dirname, 'views', `${page}.html`);
 
